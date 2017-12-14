@@ -360,6 +360,9 @@ footer h2 {
 footer p {
   font-size: 0.875rem; }
 
+.footer a {
+  color: #e7e7e7; }
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -654,6 +657,7 @@ form small {
 .font-card-footer {
   width: 100%;
   display: flex;
+  align-items: center;
   height: 16px; }
 
 .font-licenses {
@@ -700,17 +704,17 @@ td {
 td:first-child {
   padding-left: 0; }
 
-.font-info {
+.font-information {
   width: 100%;
   height: 100%;
   font-size: 0.875rem;
   display: block; }
 
-.font-info tbody {
+.font-information tbody {
   width: 100%;
   display: block; }
 
-.font-info tr {
+.font-information tr {
   border-bottom: 1px solid #bfbfbf;
   border-style: dotted;
   width: inherit;
@@ -718,16 +722,16 @@ td:first-child {
   flex-wrap: wrap;
   margin: 0; }
 
-.font-info td {
+.font-information td {
   padding: 20px 0; }
 
-.font-info td:first-child {
+.font-information td:first-child {
   width: 25%;
   display: inline-block;
   margin: 0;
   box-sizing: border-box; }
 
-.font-info td:last-child {
+.font-information td:last-child {
   width: 75%;
   display: inline-block;
   margin: 0;

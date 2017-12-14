@@ -262,7 +262,7 @@
 
 		<div class="row py-3">
 			<div class="col col-3 px-1">
-				<a href="patterns/gird.php">
+				<a href="patterns/grid.php">
 					<img src="images/grid.png" alt="Grid Illustration">
 				</a>
 				<h4 class="pattern-label">The Grid</h4>

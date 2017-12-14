@@ -18,7 +18,7 @@
 		<div class="row mb-3">
 			<div class="col col-12">
 				<h2>Font Information</h2>
-				<table class="font-info">
+				<table class="font-information">
 					<tbody>
 						<tr>
 							<td class="font-info-label">Downloads</td>

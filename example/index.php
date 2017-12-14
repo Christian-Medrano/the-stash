@@ -1,8 +1,3 @@
-<?php 
-	$listURL = "http://www.fontsquirrel.com/api/fontlist/sans%20serif";
-	$list = json_decode(file_get_contents($listURL));
- ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +8,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/sticky-kit.js"></script>
 </head>
-<body>
+<body style="max-width: 100vw; overflow-x: hidden;">
 
 <nav class="link-menu">
 	<div class="container">
@@ -129,7 +124,7 @@
 </nav>
 
 
-<main class="container">
+<main class="container py-3">
 	<div class="container-side">
 		<h1>Free Font Utopia</h1>
 		<p id="font-count">Free fonts have met their match. We know how hard it is to find quality freeware that is licensed for commercial work. We've done the hard work, hand-selecting these typefaces and presenting them in an easy-to-use format. Here are some of our favorites:</p>
@@ -408,7 +403,7 @@
 	</div>
 </main>
 
-<footer class="container-fluid py-5">
+<footer class="container-fluid py-5 footer">
 	<div class="container">
 		<div class="row">
 			<!-- footer column 1 -->
