@@ -1,0 +1,52 @@
+.font-card{
+	width: 720px;
+	background-color: #FFF;
+	outline: 1px solid #e7e7e7;
+	padding: 24px;
+	margin-bottom: 16px;
+}
+.font-card-footer{
+	width: 100%;
+	display: flex;
+	height: 16px;
+}
+.font-licenses{
+	display: flex;
+	align-items: center;
+}
+.font-licenses img{
+	height: 16px;
+	max-width: 16px;
+	margin-right: 4px;
+}
+.font-info{
+	font-size: 0.75rem;
+	font-weight: 400;
+	height: 16px;
+	display: flex;
+	align-items: center;
+}
+.font-info div{
+	margin: 0px 8px;
+}
+.listing-image{
+	width: 720px;
+	margin-bottom: 16px;
+}
+
+.font-download{
+	font-size: 0.75rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+.font-download img{
+	height: 12px;
+	width: 12px;
+	margin-right: 4px;
+}
+
+.unavailable{
+	opacity: 0.25;
+}

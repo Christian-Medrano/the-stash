@@ -1,0 +1,104 @@
+.btn{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	padding: 12px;
+	background-color: #fff;
+	border: none;
+	background-color: $color-brand;
+	border-radius: 0;
+	color: #fff;
+	position: relative;
+	transition-duration: 5s;
+}
+.btn svg{
+	height: 14px;
+	width: 14px;
+	vertical-align: middle;
+}
+.btn-blue .icon-fill{
+	fill: #fff;
+}
+.btn-blue{
+	background-color: $blue;
+}
+.btn-green{
+	background-color: $green;
+}
+.btn-orange{
+	background-color: $orange;
+}
+.btn-red{
+	background-color: $red;
+}
+.btn-white{
+	background-color: $white;
+	color: $blue;
+}
+.btn-black{
+	background-color: $black;
+}
+
+.btn-outline{
+	border: 3px solid $color-brand;
+	padding: 9px;
+	color: $color-brand;
+	background-color: transparent;
+}
+
+.btn-outline-blue{
+	border: 3px solid $blue;
+	padding: 9px;
+	color: $blue;
+	background-color: transparent;
+}
+
+.btn-outline-green{
+	border: 3px solid $green;
+	padding: 9px;
+	color: $green;
+	background-color: transparent;
+}
+
+.btn-outline-orange{
+	border: 3px solid $orange;
+	padding: 9px;
+	color: $orange;
+	background-color: transparent;
+}
+
+.btn-outline-red{
+	border: 3px solid $red;
+	padding: 9px;
+	color: $red;
+	background-color: transparent;
+}
+
+.btn-outline-white{
+	border: 3px solid $white;
+	padding: 9px;
+	color: $white;
+	background-color: transparent;
+}
+
+.btn-outline-black{
+	border: 3px solid $black;
+	padding: 9px;
+	color: $black;
+	background-color: transparent;
+}
+
+.btn:hover{
+	cursor: pointer;
+
+}
+
+.btn-disabled{
+	background-color: $gray-3;
+}
+.btn-disabled:hover{
+	cursor: not-allowed;
+}
+
+

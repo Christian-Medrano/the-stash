@@ -1,0 +1,48 @@
+form{
+	display: flex;
+	flex-wrap: wrap;
+}
+form small{
+	color: $gray-4;
+}
+.form-group{
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+.text-input{
+	font-size: 1rem;
+	padding: 8px;
+	margin: 0;
+	background-color: #fff;
+	border: 1px solid #e7e7e7;
+	width: 100%;
+}
+.text-input:focus{
+	outline: none;
+	color: #222;
+	border-color: $blue;
+}
+
+.textarea{
+	font-size: 1rem;
+	padding: 8px;
+	margin: 0;
+	background-color: #fff;
+	border: 1px solid #e7e7e7;
+	width: 100%;
+	resize: vertical;
+}
+.textarea:focus{
+	outline: none;
+	color: #222;
+	border-color: $blue;
+}
+
+.radio{
+	margin: 0;
+	padding: 0;
+	margin-right: 8px;
+	vertical-align: top;
+	margin-bottom: 8px;
+}

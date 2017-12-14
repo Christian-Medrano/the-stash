@@ -1,0 +1,39 @@
+footer{
+	background-color: $brand-dark;
+	color: #e7e7e7;
+}
+
+footer a{
+	color: #e7e7e7;
+	font-size: 0.875rem;
+}
+
+footer ul {
+ 	list-style: none;
+ 	padding: 0;
+ 	margin: 0;
+}
+
+footer li {
+	padding-left: 1em;
+ 	text-indent: -1em;
+  	margin-bottom: 0.5em;
+}
+
+footer li::before {
+  	content: "• ";
+  	margin-right: 0.5em;
+  	color: $color-brand;
+}
+footer h2{
+	color: $brand-light;
+	margin-bottom: 0.5em;
+}
+footer p{
+	font-size: 0.875rem;
+}
+.footer-bottom{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 16px;
+}

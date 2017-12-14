@@ -1,0 +1,35 @@
+.link-menu{
+	width: 100%;
+	background-color: $brand-dark;
+	padding: 8px;
+	font-size: 0.875em;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.link-menu a{
+	color: #fff;
+	margin-left: 16px;
+}
+.link-menu .container{
+	justify-content: flex-end;
+}
+
+.secondary-nav{
+	background-color: $gray-6;
+	border-bottom: 1px solid $gray-3;
+}
+.secondary-nav .nav-link{
+	color: $white;
+}
+.secondary-nav .nav-link:hover{
+	background-color: $gray-5;
+}
+.secondary-nav .nav-link:before{
+	display: none;
+}
+.secondary-nav .nav-link.active{
+	color: $white;
+	background-color: $color-brand;
+}
+

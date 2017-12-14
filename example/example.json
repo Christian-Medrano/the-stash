@@ -1,0 +1,53 @@
+// font list return
+[  
+   {  
+      "id":"674",
+      "family_name":"Aaargh",
+      "is_monocase":"N",
+      "family_urlname":"Aaargh",
+      "foundry_name":"Tup Wanders",
+      "foundry_urlname":"Tup-Wanders",
+      "font_filename":"Aaargh.ttf",
+      "classification":"Sans Serif",
+      "family_count":"1"
+   }
+]
+// font family info return
+[  
+   {  
+      "font_id":"3860",
+      "family_id":"1510",
+      "family_name":"Advent Pro",
+      "style_name":"Thin",
+      "glyph_count":"412",
+      "filename":"adventpro-thin.ttf",
+      "checksum":"1d61e3cd6ac4a5f8ac0089d2128439ea",
+      "is_monocase":"N",
+      "family_urlname":"advent-pro",
+      "foundry_name":"Andreas Kalpakidis",
+      "foundry_urlname":"Andreas-Kalpakidis",
+      "classification":"Sans Serif",
+      "family_count":"7",
+      "fontface_name":"AdventProThin",
+      "listing_image":"https:\/\/imgs.fontbrain.com\/imgs\/1d\/61\/e3cd6ac4a5f8ac0089d2128439ea\/fsl-720-30-333333@2x.png",
+      "sample_image":"https:\/\/imgs.fontbrain.com\/imgs\/1d\/61\/e3cd6ac4a5f8ac0089d2128439ea\/sp-720x400-333333-penultimate@2x.png"
+   },
+   {  
+      "font_id":"3861",
+      "family_id":"1510",
+      "family_name":"Advent Pro",
+      "style_name":"ExtraLight",
+      "glyph_count":"412",
+      "filename":"adventpro-extralight.ttf",
+      "checksum":"d2fbc95cce306dbd79aeda3661c77544",
+      "is_monocase":"N",
+      "family_urlname":"advent-pro",
+      "foundry_name":"Andreas Kalpakidis",
+      "foundry_urlname":"Andreas-Kalpakidis",
+      "classification":"Sans Serif",
+      "family_count":"7",
+      "fontface_name":"AdventProExtraLight",
+      "listing_image":"https:\/\/imgs.fontbrain.com\/imgs\/d2\/fb\/c95cce306dbd79aeda3661c77544\/fsl-720-30-333333@2x.png",
+      "sample_image":"https:\/\/imgs.fontbrain.com\/imgs\/d2\/fb\/c95cce306dbd79aeda3661c77544\/sp-720x400-333333-penultimate@2x.png"
+   }
+]

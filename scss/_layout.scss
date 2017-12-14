@@ -1,0 +1,24 @@
+.listing-image{
+	width: 720px;
+}
+html{
+	background-color: #f7f7f7;
+}
+
+.wrapper{
+	padding: 32px 0px;
+	display: flex;
+}
+
+.container-side{
+	width: 768px;
+}
+
+.outline{
+	outline: 1px solid black;
+}
+.col img{
+	width: 100%;
+	max-width: inherit;
+	object-fit: contain;
+}

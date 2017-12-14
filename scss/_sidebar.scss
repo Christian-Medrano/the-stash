@@ -1,0 +1,35 @@
+.sidebar{
+	width: 392px;
+	padding-left: 46px;
+	padding-right: 46px;
+	box-sizing: border-box;
+	position: relative;
+}
+.sidebar-container{
+	width: 300px;
+}
+.sidebar .row{
+	padding-bottom: 32px;
+}
+
+.sidebar-menu-item{
+	overflow: hidden;
+	margin-bottom: 4px;
+}
+.sidebar-menu-link{
+	width: 100%;
+	margin: 0;
+	display: block;
+	padding: 16px;
+	box-sizing: border-box;
+}
+.sidebar-menu-link:hover{
+	background-color: #e7e7e7;
+}
+.sidebar-menu-link.active{
+	color: $text-dark !important;
+	cursor: default;
+}
+.sidebar-menu-link:hover.active{
+	background-color: transparent;
+}

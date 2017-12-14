@@ -1,0 +1,136 @@
+// text
+.text-light{
+	color: #fff;
+}
+.text-dark{
+	color: #000;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.font-mono{
+	font-family: $font-monospace;
+}
+.font-serif{
+	font-family: $font-serif;
+}
+.bold{
+	font-weight: bold;
+}
+
+// Background Color
+.bg-light{
+	background-color: $gray-1;
+}
+.bg-dark{
+	background-color: $gray-6;
+}
+.bg-test{
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.bg-brand-dark{
+	background-color: $brand-dark;
+}
+.bg-brand{
+	background-color: $color-brand;
+}
+.bg-brand-light{
+	background-color: $brand-light;
+}
+
+.bg-blue{
+ background-color: $blue;
+}
+.bg-green{
+	background-color: $green;
+}
+.bg-orange{
+	background-color: $orange;
+}
+.bg-red{
+	background-color: $red;
+}
+
+// padding
+.p-1{
+	padding: 16px;
+}
+.p-2{
+	padding: 24px;
+}
+.p-3{
+	padding: 32px;
+}
+.p-4{
+	padding: 48px;
+}
+.p-5{
+	padding: 64px;
+}
+
+.px-1{
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+.py-5{
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+.py-3{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.py-2{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.pb-0{
+	padding-bottom: 0;
+}
+.pb-3{
+	padding-bottom: 32px;
+}
+.pb-5{
+	padding-bottom: 64px;
+}
+.pt-0{
+	padding-top: 0;
+}
+.pt-3{
+	padding-top: 32px;
+}
+
+// margin
+.mb-3{
+	margin-bottom: 32px;
+}
+
+// display
+.d-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+// positioning (add to parent container)
+.center-x{
+	display: flex;
+	justify-content: center;
+}
+.center-y{
+	display: flex;
+	align-items: center;
+}
+.center-xy{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.justify-space-between{
+	display: flex;
+	justify-content: space-between;
+}

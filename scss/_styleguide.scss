@@ -1,0 +1,149 @@
+// Colors
+.colors{
+	display: flex;
+}
+.color{
+	margin-right: 16px;
+}
+.color-block{
+	height: 82px;
+	width: 82px;
+	position: relative;
+}
+.color-block::before{
+	content: '';
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background-color: rgba(0, 0, 0, 0.15);
+	z-index: 1;
+	opacity: 0;
+}
+.color-block::after{
+	content: 'Copy';
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: $white;
+	opacity: 0;
+}
+.color-block:hover::before, 
+.color-block:hover::after{
+	opacity: 1;
+	cursor: pointer;
+}
+.color-code{
+	font-family: $font-monospace;
+	font-size: 0.875rem;
+}
+
+// icons
+.icon-card{
+	margin-right: 16px;
+	margin-bottom: 32px;
+}
+.icon-card:last-child{
+	margin-right: 0;
+}
+.icon{
+	padding: 74px;
+	height: 32px;
+	width: 32px !important;
+	background-color: $gray-2;
+}
+.icon:last-child{
+	margin-right: 0;
+}
+
+// code example
+.code-example{
+	background-color: $gray-5;
+	max-height: 208px;
+	overflow-y: scroll;
+	position: relative;
+}
+.code-example pre{
+    counter-reset: line;
+    padding: 0px 8px;
+    padding-left: 48px;
+	//border: 1px solid $gray-3;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.code-example code{
+    counter-increment: line;
+    line-height: 1.5em;
+    color: $white;
+}
+.code-example code::before{
+	content: counter(line);
+	position: absolute;
+	width: 31px;
+	left: 1px;
+	padding-right: 8px;
+	background-color: $gray-5;
+	color: $gray-4;
+	text-align: right;
+}
+.code-tag{
+	color: #F92672;
+}
+.code-attr{
+	color: $green;
+}
+.code-arg{
+	color: yellow;
+}
+
+.copy-code{
+	color: $blue;
+	cursor: pointer;
+	position: relative;
+}
+.copied-code{
+	position: fixed;
+	top: 0;
+	transform: translateY(-500px);
+}
+.notify{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 12px;
+	position: absolute;
+	left: 0; top: -12px;
+	color: $white;
+	opacity: 0;
+	border-radius: 0 5px 5px 0;
+	transition-duration: 0.3s;
+}
+
+
+// Footer Light
+.footer-light{
+	background-color: transparent;
+	color: $gray-3;
+}
+.footer-light a{
+	color: $blue;
+}
+
+// Typography
+.type-size{
+	color: $gray-4;
+	text-align: right;
+	font-family: $font-monospace;
+	font-size: 0.875rem;
+}
+
+.outlined{
+	outline: 1px solid $gray-1;
+}
+
+.max-h{
+	max-height: 200px;
+	overflow-y: scroll;
+	position: relative;
+}

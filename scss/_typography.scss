@@ -1,0 +1,64 @@
+html{
+	font-size: 100%;
+}
+body{
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+.brand{
+	font-weight: 300;
+}
+
+small{
+	font-size: 0.875em;
+	font-weight: 400;
+}
+code{
+	font-family: $font-monospace;
+	font-size: 0.875rem;
+}
+label{
+	font-weight: bold;
+	font-size: 0.875rem;
+	margin-bottom: 8px;
+	display: block;
+}
+
+h1{
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 0.2em;
+}
+h2{
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 0.5em;
+}
+h4{
+	font-weight: 600;
+}
+p{
+	line-height: 1.5em;
+}
+
+.sidebar p{
+	font-size: 0.875rem;
+}
+.sidebar .text{
+	width: 300px;
+}
+
+.font-count-number{
+	color: $brand-light;
+}
+#font-count{
+	margin-bottom: 32px;
+}
+
+hr {
+	height: 1px;
+	border: none;
+	background-color: #DEDEDE;
+	margin-top: 8px;
+	margin-bottom: 32px;
+}
