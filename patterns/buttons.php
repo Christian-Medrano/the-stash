@@ -1,4 +1,4 @@
-<?php include '../header.php'; ?>
+<?php include 'header.php'; ?>
 <?php 
 	$search = '
 		<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In  -->
@@ -17,11 +17,6 @@
 	';
 
  ?>
-
- <script>
-		$('#style-link').attr('href', '../css/style.css')
-</script>
-
 <div class="wrapper">
 	<main class="container-side">
 		<div class="row py-3">
@@ -157,7 +152,8 @@
 <script>
 	$(document).ready(function(){
 		$('#buttons').addClass('active');
+		$('title').append(' - Buttons');
 	});
 </script>
 
-<?php include '../footer.php'; ?>
+<?php include 'footer.php'; ?>

@@ -2,7 +2,7 @@
 
 ##### UI Pattern Library 
 
-###### v1.0.0
+###### v1.0.0-alpha
 
 The Stash is a proposed conceptual design system created for [Font Squirrel](http://fontsquirrel.com). The objective of this project is to unifiy Font Squirrel's existing interface, and to provide a library for both designers as well as developers looking to extend the Font Squirrel brand.
 

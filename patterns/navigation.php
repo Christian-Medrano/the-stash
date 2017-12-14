@@ -1,8 +1,4 @@
-<?php include '../header.php'; ?>
-
-<script>
-	$('#style-link').attr('href', '../css/style.css')
-</script>
+<?php include 'header.php'; ?>
 
 <div class="wrapper">
 	<main class="container-side">
@@ -146,7 +142,8 @@
 <script>
 	$(document).ready(function(){
 		$('#navs').addClass('active');
+		$('title').append(' - Navigation');
 	});
 </script>
 
-<?php include '../footer.php'; ?>
+<?php include 'footer.php'; ?>
