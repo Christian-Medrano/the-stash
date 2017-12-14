@@ -1,0 +1,79 @@
+.hero{
+	width: 100%;
+	height: 755px;
+	background-color: $gray-2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $white;
+	background: #67358b; /* Old browsers */
+	background: -moz-linear-gradient(top, #67358b 0%, #b672e6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #67358b 0%,#b672e6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #67358b 0%,#b672e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	position: relative;
+}
+
+.hero h1{
+	font-size: 3rem;
+}
+.hero h2{
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+.hero .btn{
+	margin-right: 16px;
+}
+.hero-content{
+	z-index: 2;
+}
+
+.hero-border{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+}
+.hero-border-fill{
+	fill: $gray-1;
+	width: 100%;
+}
+
+#tree-svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-20%, 0%);
+	z-index: 1;
+	height: 125%;
+}
+
+@keyframes sway {
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(90deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+.tree-leaves{
+	position: relative;
+}
+
+.tree-leaf{
+	animation: 4s sway ease-in-out infinite;
+	transform-origin: 50% 50%;
+	fill: #5ace29;
+}
+.tree-leaf.wave-2{
+	animation-delay: 0.4s;
+}
+.tree-leaf.wave-1{
+	animation-delay: 0.8s;
+}
+.tree-trunk{
+	fill: #4f3826;
+}
