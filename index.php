@@ -19,7 +19,7 @@
 				<a href="#patterns" class="nav-link">Patterns</a>
 			</li>
 			<li class="nav-item">
-				<a href="../example/index.php" class="nav-link">Example</a>
+				<a href="example/index.php" class="nav-link">Example</a>
 			</li>
 		</ul>
 		<p><small>UI Pattern Library v1.0.0-alpha</small></p>

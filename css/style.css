@@ -407,7 +407,8 @@ footer p {
   justify-content: center;
   box-sizing: border-box;
   border-bottom: 1px solid #e7e7e7;
-  transition-duration: 0.2s; }
+  transition-duration: 0.2s;
+  z-index: 10; }
 
 .primary-nav .container {
   display: flex;
