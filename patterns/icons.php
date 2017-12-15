@@ -78,7 +78,7 @@
 					<p class="icon-label">Classification</p>
 				</div>
 				<div class="icon-card">
-					<img class="icon" src="../css/icons/Key.svg" alt="">
+					<img class="icon" src="../css/icons/key.svg" alt="">
 					<p class="icon-label">License</p>
 				</div>
 			</div>
