@@ -421,6 +421,14 @@ footer p {
 .primary-nav .text-input {
   width: 280px; }
 
+.logo {
+  fill: #67358B; }
+
+.logo-type {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 0.5em; }
+
 .nav-links {
   display: flex; }
 
@@ -429,6 +437,11 @@ footer p {
   box-sizing: border-box;
   position: relative;
   display: block; }
+
+.nav-link.brand {
+  padding: 8px 0;
+  display: flex;
+  align-items: center; }
 
 .primary-nav .nav-link {
   color: #212121; }

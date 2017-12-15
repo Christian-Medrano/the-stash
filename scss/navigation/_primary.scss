@@ -17,7 +17,14 @@
 .primary-nav .text-input{
 	width: 280px;
 }
-
+.logo{
+	fill: $color-brand;
+}
+.logo-type{
+	font-size: 1rem;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
 .nav-links{
 	display: flex;
 }
@@ -26,6 +33,11 @@
 	box-sizing: border-box;
 	position: relative;
 	display: block;
+}
+.nav-link.brand{
+	padding: 8px 0;
+	display: flex;
+	align-items: center;
 }
 .primary-nav .nav-link{
 	color: $gray-6;

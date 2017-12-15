@@ -13,6 +13,12 @@
 	<div class="container">
 		<ul class="nav-links">
 			<li class="nav-item">
+				<div class="nav-link brand">
+				<?php include 'the-stash-logo.svg'; ?>
+				<span class="logo-type">The Stash</span>
+				</div>
+			</li>
+			<li class="nav-item">
 				<a href="" class="nav-link active">Overview</a>
 			</li>
 			<li class="nav-item">
