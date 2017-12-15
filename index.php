@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>The Stash</title>
 	<link rel="stylesheet" href="css/style.css" id="style-link">
+	<link rel="icon" type="image/png" href="favicon.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/sticky-kit.js"></script>
@@ -28,7 +29,7 @@
 				<a href="example/index.php" class="nav-link">Example</a>
 			</li>
 		</ul>
-		<p><small>UI Pattern Library v1.0.0-alpha</small></p>
+		<p><small>Font Squirrel Pattern Library v1.0.0-alpha</small></p>
 	</div>
 </nav>
 
