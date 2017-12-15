@@ -29,5 +29,6 @@
 				<a href="../example/" class="nav-link">Example</a>
 			</li>
 		</ul>
+		<p><small>Font Squirrel Pattern Library v1.0.0-alpha</small></p>
 	</div>
 </nav>

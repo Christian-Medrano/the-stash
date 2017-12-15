@@ -39,6 +39,9 @@
 	display: flex;
 	align-items: center;
 }
+.nav-link.brand:before{
+	display: none;
+}
 .primary-nav .nav-link{
 	color: $gray-6;
 }

@@ -443,6 +443,9 @@ footer p {
   display: flex;
   align-items: center; }
 
+.nav-link.brand:before {
+  display: none; }
+
 .primary-nav .nav-link {
   color: #212121; }
 
@@ -775,7 +778,8 @@ td:first-child {
   font-size: 3rem; }
 
 .hero h2 {
-  font-weight: normal;
+  font-weight: 300;
+  font-size: 1.25rem;
   margin-bottom: 1em; }
 
 .hero .btn {
