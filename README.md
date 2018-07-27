@@ -33,7 +33,7 @@ Once inside the project directory, enter and execute the following command to in
 npm install
 ```
 
-##### 2. Run SCSS
+##### 3. Run SCSS
 
 After npm has completed installing all packages, run the following command to start watching the SCSS folder.
 ```
@@ -43,7 +43,7 @@ Now, anytime a change is saved in any of the .scss files within the SCSS folder,
 
 ## Built With
 
-* [jQuery](https://jquery.com/) - A wirte less, do more JavaScript library
+* [jQuery](https://jquery.com/) - A write less, do more JavaScript library
 * [Sticky Kit](http://leafo.net/sticky-kit/) - A jQuery plugin for making smart sticky elements
 
 ## Versioning
